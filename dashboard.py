@@ -28,7 +28,7 @@ if option == 'Technical':
     tron = yf.download("TRX-USD", period='1y', end=None)
     matic = yf.download("MATIC-USD", period='1y', end=None)
 
-    symbol = st.sidebar.text_input('Enter Symbol:' + "-USD", value='BTC-USD', max_chars=None, key=None, type='default')
+    symbol = st.sidebar.text_input('Enter Symbol:' + "-USD", value='BTC', max_chars=None, key=None, type='default')
     data = yf.download(symbol + '-USD', period='1y', end=None)
 
     #add momentum indicators to data 
