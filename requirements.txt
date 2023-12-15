@@ -3,5 +3,5 @@ pandas
 plotly
 requests
 numpy
-TA-Lib
+ta-lib-bin
 yfinance
