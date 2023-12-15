@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import yfinance as yf
-import talib
+brew install ta-lib
 from indicators import patterns
 import plotly.graph_objects as go
 import plotly.express as px
