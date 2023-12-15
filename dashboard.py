@@ -5,7 +5,7 @@ import yfinance as yf
 from indicators import patterns
 import plotly.graph_objects as go
 import plotly.express as px
-pip install ta-lib-bin
+pip3 install ta-lib-bin
 
 option = st.sidebar.selectbox('Select Dashboard:', ('Technical', 'Social', 'Derivatives'))
 
