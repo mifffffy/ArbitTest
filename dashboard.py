@@ -5,6 +5,7 @@ import yfinance as yf
 from indicators import patterns
 import plotly.graph_objects as go
 import plotly.express as px
+import streamlit as st
 import requests
 import os
 import sys
