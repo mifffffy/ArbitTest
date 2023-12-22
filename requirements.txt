@@ -1,3 +1,4 @@
+pip3
 streamlit
 pandas
 plotly
