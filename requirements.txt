@@ -7,5 +7,5 @@ numpy
 ta-lib-bin
 yfinance
 plotly
-scipy
+scipy.stats
 ccxt
